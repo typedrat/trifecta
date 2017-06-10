@@ -75,6 +75,7 @@ library
   hs-source-dirs:   src
   ghc-options:      -O2 -Wall -fobject-code
 
+  default-extensions: TypeSynonymInstances
 
 test-suite doctests
   type:             exitcode-stdio-1.0
